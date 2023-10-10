@@ -14,6 +14,7 @@
     var end = false;
     var score = 0;
 
+    // function for the food
     function randomFood() {
       return Math.floor(Math.random() * SIZE / GRID_SIZE) * GRID_SIZE;
     }
